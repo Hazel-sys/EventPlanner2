@@ -1,0 +1,97 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #f8eafc,
+    #f8eafc 20px,
+    #ffffff 20px,
+    #ffffff 40px
+  );
+}
+
+.App {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.header {
+  padding: 40px 20px;
+}
+
+.cta-button {
+  background-color: #f06292;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.event-categories {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.event-category {
+  background-color: #f8bbd0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 260px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.event-category ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+.features, .testimonials, .contact {
+  padding: 40px 20px;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.testimonials p {
+  font-style: italic;
+  margin: 15px 0;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact input,
+.contact textarea {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact button {
+  width: 320px;
+  background-color: #ec407a;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
